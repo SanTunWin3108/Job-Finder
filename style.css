@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 2rem;
+    color: rgb(252, 16, 16);
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: rgb(4, 4, 92);
+    transition: all .5s;
+}
+
+.registerBtn {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(235, 77, 77);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    transition: all .5s;
+    margin-right: 10px;
+}
+
+.registerBtn:hover {
+    background-color: rgb(252, 16, 16);
+    transition: all .5s;
+}
+
+.loginBtn {
+    width: 120px;
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    transition: all .5s;
+    border: 2px solid red;
+    color: red;
+    transition: all .5s;
+}
+
+.loginBtn:hover {
+    background-color: rgb(252, 16, 16);
+    transition: all .5s;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(4, 4, 92);
+    margin: 0 10px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(252, 16, 16);
+    transition: all .5s;
+}
+
+/* --------------------------Main------------------------------ */
+
+.main {
+    background-image: url(image/office.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(4, 4, 92);
+}
+
+.main input {
+    width: 70%;
+    height: 70px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.findJobBtn {
+    width: 25%;
+    height: 70px;
+    outline: none;
+    border: none;
+    background-color: rgb(235, 77, 77);
+    color: white;
+    margin-left: -5px;
+    transition: all .5s;
+}
+
+.findJobBtn:hover {
+    background-color: rgb(252, 16, 16);
+    transition: all .5s;
+    color: white;
+}
+
+.red {
+    color: rgb(252, 16, 16);
+}
+
+.categories h1 {
+    font-size: 3.5rem;
+    color: rgb(4, 4, 92);
+}
+
+.categories i {
+    color: black;
+}
+
+.categories .card {
+    transition: all .4s;
+}
+
+.categories .card:hover {
+    box-shadow: 0 0 15px 0px gray;
+    margin-top: -15px;
+    transition: all .4s;
+    color: rgb(252, 16, 16);
+    cursor: pointer;
+}
+
+.browseBtn {
+    width: 75%;
+    height: 70px;
+    outline: none;
+    border: 1px solid rgb(62, 62, 219);
+    font-size: 20px;
+    background-color: white;
+    color: rgb(62, 62, 219);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+
+.browseBtn:hover {
+    background-color: rgb(62, 62, 219);
+    color: white;
+    transition: all .5s;
+    outline: none;
+    border: none;
+}
+
+/* ----------------------------Resume----------------------- */
+
+.resume {
+    background-image: linear-gradient(rgba(1, 1, 199, 0.7), rgba(3, 3, 173, 0.7)) ,url(image/officeGirl.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.resume h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.resumeBtn {
+    width: 70%;
+    height: 70px;
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(219, 219, 219, 0.4);
+    color: rgba(219, 219, 219, 0.4);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.resumeBtn:hover {
+    background-color: rgb(98, 98, 212);
+    border: none;
+    outline: none;
+    color: white;
+    transition: all .5s;
+}
+
+/* -------------------------------Jobs----------------------------------- */
+
+.jobs h1 {
+    font-size: 3.5rem;
+    color: rgb(4, 4, 92);
+}
+
+
+.jobBtn {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(235, 77, 77);
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all .4s;
+}
+
+.jobBtn:hover {
+    background-color: rgb(252, 16, 16);
+    transition: all .4s;
+}
+
+/* -----------------------------------------Apply-------------------------------------- */
+
+.apply {
+    background-image: linear-gradient(rgba(9, 9, 141, 0.7), rgba(10, 10, 155, 0.7)), url(image/cyber.jpg);
+}
+
+.apply .card {
+    background-color: rgba(10, 10, 155, 0.5);
+    margin-bottom: 20px;
+}
+
+
+/* ----------------------------------------Profile------------------------------------------ */
+
+.face {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.text-style {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.contact-btn {
+    width: 70%;
+    height: 60px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 77, 77);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: all .4s;
+}
+
+.contact-btn:hover {
+    transition: all .4s;
+    background-color: rgb(252, 16, 16);
+}
+
+.previousIcon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 300px;
+    left: 0;
+}
+
+.nextIcon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 300px;
+    right: 0;
+}
+
+/* --------------------------------Footer---------------------------------- */
+
+.footer {
+    background-color: rgb(9, 9, 29);
+}
+
+.footer p {
+    color: gray;
+}
+
+.margin {
+    margin-top: -15px;
+}
+
+.inputAndButton {
+    height: 40px;
+}
+
+.footer input {
+    width: 73%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer button {
+    height: 50px;
+    width: 23%;
+    border: none;
+    outline: none;
+    margin-left: -3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(231, 46, 77);
+    color: white;
+    border-top: 1px solid rgb(231, 46, 77);
+}
+
+.move {
+    transition: all .4s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.move:hover {
+    color: rgb(231, 46, 77);
+    padding-left: 10px;
+    transition: all .4s;
+}
+
+.footer hr {
+    background-color: gray;
+}
+
+.fa-paper-plane {
+    font-size: 20px;
+}
