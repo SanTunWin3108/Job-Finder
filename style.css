@@ -68,7 +68,7 @@
 /* --------------------------Main------------------------------ */
 
 .main {
-    background-image: url(image/office.webp);
+    background-image: url(office.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -156,7 +156,7 @@
 /* ----------------------------Resume----------------------- */
 
 .resume {
-    background-image: linear-gradient(rgba(1, 1, 199, 0.7), rgba(3, 3, 173, 0.7)) ,url(image/officeGirl.jpg);
+    background-image: linear-gradient(rgba(1, 1, 199, 0.7), rgba(3, 3, 173, 0.7)) ,url(officeGirl.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -219,7 +219,7 @@
 /* -----------------------------------------Apply-------------------------------------- */
 
 .apply {
-    background-image: linear-gradient(rgba(9, 9, 141, 0.7), rgba(10, 10, 155, 0.7)), url(image/cyber.jpg);
+    background-image: linear-gradient(rgba(9, 9, 141, 0.7), rgba(10, 10, 155, 0.7)), url(cyber.jpg);
 }
 
 .apply .card {
